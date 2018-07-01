@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>xResponder</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="soft.js"></script>
+  </head>
+  <body>
+    <em><b>Nota:</b>&nbsp;este aplicativo ainda está em desenvolvimento!!</em>
+    <div class="panel">
+      <h1>xResponder</h1>
+      <h3 id="ans">Pergunte algo abaixo para mim responder!</h3>
+      <div class="footer">
+        <input type="text" placeholder="Pergunte algo aqui ..." id="quest" onkeydown="if(event.key == 'Enter')answer();"/><a class="btn" onclick="answer();">Responda!</a>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+detectmob();
+</script>
